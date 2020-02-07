@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i&display=swap');
+@font-face { font-family: 'KBIZHanmaumGothic'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff') 
+	format('woff'); font-weight: normal; font-style: normal; }
+	
+*{
+
+	padding:0;
+	box-sizing: border-box;
+	outline:none;
+	text-decoration:none;
+	font-family:'KBIZHanmaumGothic', 'Josefin Sans', sans-serif;
+
+}
+body, html {
+	height: 100%;
+	font-family: sans-serif;
+	background-color: #f1c40f;
+}
+ 
+.wrapper-set {
+	width: 100%;
+}
+
+.wrapper{
+	max-width: 1070px;
+	min-width: 960px;
+	width:100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	height:auto;
+	background: #fff;
+	padding: 60px 45px;
+	border-radius:20px;
+	margin-bottom:100px;
+}
+h2{
+    color: #785655;
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+.table {
+	border: #785655 2px solid;
+	border-collapse: collapse;
+	border-radius: 15px;
+	width: 100%;
+  }
+  
+  .table td, .table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+  }
+  .table td{
+	  color:#785655;
+  }
+  
+  .table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 13pt;
+	text-align: center;
+	
+  }
+
+a{
+	border: #f1c40f 3px solid;
+	padding: 10px;
+	color: #785655;
+	font-size: 12pt;
+	background-color: #fff;
+	border-radius: 10px;
+}
+#deleteLog{
+	border:#f1c40f 3px solid;
+	background-color: #fff;
+	color:#785655;
+	font-size: 12pt;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#homeBtn, #mypageBtn{
+	width: 100px;
+	border:#f1c40f 3px solid;
+	background-color: #fff;
+	color:#785655;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 12pt;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
